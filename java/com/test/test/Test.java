@@ -7,5 +7,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class Test {
     public Test() {
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }

@@ -35,11 +35,11 @@ public class EXGalibang extends SwordItem {
 
         @Override
         public Ingredient getRepairMaterial() {
-            return Ingredient.fromItems(ItemRegistry.blackblockding.get());
+            return Ingredient.fromItems(ItemRegistry.blackBlockDing.get());
         }
     };
     public EXGalibang() {
-        super(iItemTier, 3, -2.4F, new Item.Properties().group(ItemGroup.COMBAT)
+        super(iItemTier, 3, -2.4F, new Item.Properties().group(ModGroup.itemgroup)
         );
     }
 }

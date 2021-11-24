@@ -5,6 +5,6 @@ import net.minecraft.item.ItemGroup;
 
 public class BlackBlockDing extends Item {
     public BlackBlockDing(){
-        super(new Properties().group(ItemGroup.MATERIALS));
+        super(new Properties().group(ModGroup.itemgroup));
     }
 }

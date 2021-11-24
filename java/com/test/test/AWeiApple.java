@@ -15,7 +15,7 @@ public class AWeiApple extends Item {
             .build();
 
     public AWeiApple() {
-        super(new Properties().food(food).group(ItemGroup.FOOD));
+        super(new Properties().food(food).group(ModGroup.itemgroup));
     }
 
 }
