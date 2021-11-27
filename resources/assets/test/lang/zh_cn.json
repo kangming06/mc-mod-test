@@ -1,6 +1,8 @@
 {
   "item.test.awei_apple": "阿伟苹果",
-  "item.test.ex_galibang":"EX咖喱棒",
-  "item.test.blackblock_ding":"黑曜石腚",
-  "block.test.nicelook_block":"好康的块"
+  "item.test.ex_galibang": "EX咖喱棒",
+  "item.test.blackblock_ding": "黑曜石腚",
+  "itemgrop.abandon_group": "抛弃,遗弃模组",
+  "block.test.nicelook_block": "好康的块",
+  "block.test.jiege_block": "杰哥块"
 }
