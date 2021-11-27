@@ -10,4 +10,7 @@ public class BlockRegistry {
     public static RegistryObject<Block> niceLookBlock = BLOCKS.register("nicelook_block", () -> {
         return new NiceLookBlock();
     });
+    public static RegistryObject<Block> jieGeBlock = BLOCKS.register("jiege_block",()->{
+        return new JieGeBlock();
+    });
 }

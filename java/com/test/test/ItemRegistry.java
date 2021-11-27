@@ -21,4 +21,7 @@ public class ItemRegistry {
     public static RegistryObject<Item> niceLookBlock = ITEMS.register("nicelook_block", () -> {
         return new BlockItem(BlockRegistry.niceLookBlock.get(), new Item.Properties().group(ModGroup.itemgroup));
     });
+    public static RegistryObject<Item> jieGeBlock = ITEMS.register("jiege_block",()->{
+        return new BlockItem(BlockRegistry.jieGeBlock.get(), new Item.Properties().group(ModGroup.itemgroup));
+    });
 }

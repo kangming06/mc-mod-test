@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "face=0": { "model": "test:block/jiege_block_model_0"},
+    "face=1": { "model": "test:block/jiege_block_model_1"}
+  }
+}
